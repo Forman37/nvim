@@ -31,6 +31,14 @@ return {
                     sorter = "extension",
                     folders_first = true,
                 },
+
+                view = {
+                    width = {
+                        min = 30,
+                        max = 60,
+                        padding = 1,
+                    },
+                },
             })
 
             -- global toggle key
